@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/IOTechSystems/onvif/ws-discovery"
+
+	wsdiscovery "github.com/jkl-sp/onvif/ws-discovery"
 )
 
 func main() {

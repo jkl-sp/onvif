@@ -7,9 +7,9 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/IOTechSystems/onvif"
-	"github.com/IOTechSystems/onvif/gosoap"
-	"github.com/IOTechSystems/onvif/networking"
+	"github.com/jkl-sp/onvif"
+	"github.com/jkl-sp/onvif/gosoap"
+	"github.com/jkl-sp/onvif/networking"
 
 	"github.com/gin-gonic/gin"
 )

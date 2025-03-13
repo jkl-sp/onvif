@@ -1,10 +1,11 @@
 package main
 
 import (
-	"github.com/IOTechSystems/onvif"
-	"github.com/IOTechSystems/onvif/device"
 	"io/ioutil"
 	"log"
+
+	"github.com/jkl-sp/onvif"
+	"github.com/jkl-sp/onvif/device"
 )
 
 func main() {

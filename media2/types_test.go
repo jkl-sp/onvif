@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/IOTechSystems/onvif/xsd"
-	"github.com/IOTechSystems/onvif/xsd/onvif"
+	"github.com/jkl-sp/onvif/xsd"
+	"github.com/jkl-sp/onvif/xsd/onvif"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

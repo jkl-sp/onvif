@@ -1,6 +1,9 @@
-module github.com/IOTechSystems/onvif
+module github.com/jkl-sp/onvif
 
-go 1.23
+go 1.23.0
+
+toolchain go1.23.7
+
 require (
 	github.com/beevik/etree v1.5.0
 	github.com/clbanning/mxj/v2 v2.7.0

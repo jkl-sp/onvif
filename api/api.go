@@ -10,10 +10,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/IOTechSystems/onvif"
-	"github.com/IOTechSystems/onvif/gosoap"
-	"github.com/IOTechSystems/onvif/networking"
-	wsdiscovery "github.com/IOTechSystems/onvif/ws-discovery"
+	"github.com/jkl-sp/onvif"
+	"github.com/jkl-sp/onvif/gosoap"
+	"github.com/jkl-sp/onvif/networking"
+	wsdiscovery "github.com/jkl-sp/onvif/ws-discovery"
 
 	"github.com/beevik/etree"
 	"github.com/gin-gonic/gin"

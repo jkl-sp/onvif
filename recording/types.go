@@ -3,8 +3,8 @@ package recording
 import (
 	"encoding/xml"
 
-	"github.com/IOTechSystems/onvif/xsd"
-	"github.com/IOTechSystems/onvif/xsd/onvif"
+	"github.com/jkl-sp/onvif/xsd"
+	"github.com/jkl-sp/onvif/xsd/onvif"
 )
 
 // TrackType type

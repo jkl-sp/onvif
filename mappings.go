@@ -9,14 +9,14 @@
 package onvif
 
 import (
-	"github.com/IOTechSystems/onvif/analytics"
-	"github.com/IOTechSystems/onvif/device"
-	"github.com/IOTechSystems/onvif/event"
-	"github.com/IOTechSystems/onvif/imaging"
-	"github.com/IOTechSystems/onvif/media"
-	"github.com/IOTechSystems/onvif/media2"
-	"github.com/IOTechSystems/onvif/ptz"
-	"github.com/IOTechSystems/onvif/recording"
+	"github.com/jkl-sp/onvif/analytics"
+	"github.com/jkl-sp/onvif/device"
+	"github.com/jkl-sp/onvif/event"
+	"github.com/jkl-sp/onvif/imaging"
+	"github.com/jkl-sp/onvif/media"
+	"github.com/jkl-sp/onvif/media2"
+	"github.com/jkl-sp/onvif/ptz"
+	"github.com/jkl-sp/onvif/recording"
 )
 
 var AnalyticsFunctionMap = map[string]Function{
