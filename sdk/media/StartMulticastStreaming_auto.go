@@ -7,9 +7,9 @@ package media
 import (
 	"context"
 	"github.com/juju/errors"
-	"github.com/use-go/onvif"
-	"github.com/use-go/onvif/sdk"
-	"github.com/use-go/onvif/media"
+	"github.com/jkl-sp/onvif"
+	"github.com/jkl-sp/onvif/sdk"
+	"github.com/jkl-sp/onvif/media"
 )
 
 // Call_StartMulticastStreaming forwards the call to dev.CallMethod() then parses the payload of the reply as a StartMulticastStreamingResponse.

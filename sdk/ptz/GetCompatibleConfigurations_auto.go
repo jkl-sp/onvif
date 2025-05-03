@@ -7,9 +7,9 @@ package ptz
 import (
 	"context"
 	"github.com/juju/errors"
-	"github.com/use-go/onvif"
-	"github.com/use-go/onvif/sdk"
-	"github.com/use-go/onvif/ptz"
+	"github.com/jkl-sp/onvif"
+	"github.com/jkl-sp/onvif/sdk"
+	"github.com/jkl-sp/onvif/ptz"
 )
 
 // Call_GetCompatibleConfigurations forwards the call to dev.CallMethod() then parses the payload of the reply as a GetCompatibleConfigurationsResponse.

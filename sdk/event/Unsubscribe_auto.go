@@ -7,9 +7,9 @@ package event
 import (
 	"context"
 	"github.com/juju/errors"
-	"github.com/use-go/onvif"
-	"github.com/use-go/onvif/sdk"
-	"github.com/use-go/onvif/event"
+	"github.com/jkl-sp/onvif"
+	"github.com/jkl-sp/onvif/sdk"
+	"github.com/jkl-sp/onvif/event"
 )
 
 // Call_Unsubscribe forwards the call to dev.CallMethod() then parses the payload of the reply as a UnsubscribeResponse.
