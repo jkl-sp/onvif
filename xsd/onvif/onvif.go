@@ -365,8 +365,8 @@ type VideoSourceConfiguration struct {
 
 type ConfigurationEntity struct {
 	Token    ReferenceToken `xml:"token,attr"`
-	Name     Name           `xml:"onvif:Name"`
-	UseCount int            `xml:"onvif:UseCount"`
+	Name     Name
+	UseCount int
 }
 
 type VideoSourceConfigurationExtension struct {
@@ -421,14 +421,14 @@ type AudioSourceConfiguration struct {
 
 type VideoEncoderConfiguration struct {
 	ConfigurationEntity
-	Encoding       VideoEncoding          `xml:"onvif:Encoding"`
-	Resolution     VideoResolution        `xml:"onvif:Resolution"`
-	Quality        float64                `xml:"onvif:Quality"`
-	RateControl    VideoRateControl       `xml:"onvif:RateControl"`
-	MPEG4          Mpeg4Configuration     `xml:"onvif:MPEG4"`
-	H264           H264Configuration      `xml:"onvif:H264"`
-	Multicast      MulticastConfiguration `xml:"onvif:Multicast"`
-	SessionTimeout xsd.Duration           `xml:"onvif:SessionTimeout"`
+	Encoding       VideoEncoding
+	Resolution     VideoResolution
+	Quality        float64
+	RateControl    VideoRateControl
+	MPEG4          Mpeg4Configuration
+	H264           H264Configuration
+	Multicast      MulticastConfiguration
+	SessionTimeout xsd.Duration
 }
 
 type VideoEncoding xsd.String
